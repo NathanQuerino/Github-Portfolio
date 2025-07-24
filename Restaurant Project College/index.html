@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #1a1a1a, #330000);
+            margin: 0;
+            padding-top: 70px; /* Offset for fixed navbar */
+            color: #f8f9fa;
+        }
+        .content-box {
+            background-color: #2c2c2c;
+            border: 1px solid #ff4d4d;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(255, 77, 77, 0.2);
+            margin-bottom: 30px;
+        }
+        h1, h2, h5 {
+            color: #ff4d4d;
+        }
+        .navbar {
+            background-color: #000 !important;
+        }
+        .nav-link {
+            color: #ff4d4d !important;
+        }
+        .card {
+            background-color: #1a1a1a;
+            color: #fff;
+            border: 1px solid #ff4d4d;
+        }
+        .card-title {
+            color: #ff4d4d;
+        }
+        section {
+            scroll-margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 mt-3">
+        <div class="container content-box">
+            <h2>About Me</h2>
+            <p>I am a Computer Science student who enjoys figuring out problems and creating new things through coding. I'm also very passionate about web development, data science, and AI. I love working in a team with other people as apassionate as I am about coding.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 mt-3">
+        <div class="container content-box">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="Restaurant.html" style="text-decoration: none;">
+    <div class="card">
+        <img src="C:\Users\Nathan\OneDrive\Imagens\Downtown Steakhouse.jpg" class="card-img-top" alt="project">
+        <div class="card-body">
+            <h5 class="card-title">Restaurant Website</h5>
+            <p class="card-text">A fully responsive restaurant website featuring menus, reservations, FAQs and more — built using HTML, CSS, and Bootstrap.</p>
+        </div>
+    </div>
+</a>
+
+                </div>
+                <!-- Add more project cards here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 mt-3">
+        <div class="container content-box">
+            <h2>Contact</h2>
+            <p>Email: nathanquerinobr@gmail.com | GitHub: github.com/Nathan Querino</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
